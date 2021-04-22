@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://127.0.0.1:5501/index.html#contact -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Document_files/styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <div id="navbar" class="navbar top">
+        <h1 class="logo">
+          <img src="./Document_files/logo.png" alt="">
+          <span class="text-primary text-space"> EM</span>SCULPT
+        </h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="http://127.0.0.1:5501/index.html#home"><i class="fas fa-house-user"></i> Home</a>
+            </li>
+            <li>
+              <a href="http://127.0.0.1:5501/index.html#about"> <i class="fas fa-info-circle"></i> About</a>
+            </li>
+
+            <li>
+              <a href="http://127.0.0.1:5501/index.html#contact"> <i class="far fa-envelope"></i> Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <h1>EM<span class="blue">SCULPT</span></h1>
+      </div>
+      <div class="content">
+        <h2><span>what is Emsculpt</span></h2>
+        <p>
+          EMSCULPT is the only procedure to help both women and men build muscle
+          and sculpt their body. Burn fat and build muscle simultaneously with
+          EmSculpt Non-Surgical body contouring! EmSculpt is FDA-cleared for
+          strengthening, toning and firming of the abdomen, buttocks, thighs and
+          arms.
+        </p>
+        <a href="http://127.0.0.1:5501/index.html#about" class="btn layer">
+          Read More <i class="fas fa-chevron-right"></i>
+        </a>
+      </div>
+    </header>
+    <div>
+      <h1>How does it work?</h1>
+      <p>
+        The non-invasive HIFEM® (High-Intensity Focused Electromagnetic)
+        technology induces powerful muscle contractions not achievable through
+        voluntary contractions. When exposed to strong contractions, the muscle
+        tissue is forced to adapt to such extreme condition. It responds with a
+        deep remodeling of its inner structure that results in muscle building
+        and sculpting your body.
+      </p>
+      <img src="./Document_files/Emsculpt-3.jpg" alt="how emsculpt works">
+    </div>
+    <div>
+      <aside>
+        <h1>Schedule a Free Consultation</h1>
+        <form action="http://127.0.0.1:5501/index.html"></form>
+      </aside>
+    </div>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
