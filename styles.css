@@ -84,7 +84,7 @@ body {
 }
 
 .flex-columns p {
-  margin: s0px 0;
+  margin: 0px 0;
 }
 
 ul {
@@ -333,9 +333,24 @@ textarea {
     display: inline-block;
     overflow: hidden;
   }
+  iframe {
+    margin-left: 45px;
+  }
 
   h1 .logo {
     text-align: center;
+  }
+  .emsculpt {
+    height: 50px;
+    width: 200px;
+    margin-left: 15vh;
+  }
+  p.l-side {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 20px;
+    /* margin-left: 30px; */
   }
   h1 img {
     margin-right: 10px;
@@ -350,8 +365,14 @@ textarea {
   p {
     text-align: center;
   }
+  .high {
+    margin: 0px;
+  }
   h1 {
     font-weight: 100;
+  }
+  h2 {
+    text-align: center;
   }
   .section-padding {
     padding: 10px 10px 20px;
@@ -373,6 +394,7 @@ textarea {
   }
   .flex-columns .column-2 {
     padding: 10px;
+    margin-left: 20px;
   }
   .team img {
     width: 70%;
