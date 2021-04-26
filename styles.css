@@ -41,7 +41,7 @@ body {
 }
 /* flex columns */
 
-.flex-columns.flex-reverse .row {
+.flex-columns.flex-reverse {
   flex-direction: row-reverse;
 }
 .flex-columns .row {
