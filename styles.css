@@ -90,8 +90,6 @@ body {
 ul {
   list-style: none;
 }
-li {
-}
 
 a {
   color: #333;
@@ -400,3 +398,4 @@ textarea {
     width: 70%;
   }
 }
+/* this is for before and after image slider */
