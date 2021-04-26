@@ -41,9 +41,9 @@ body {
 }
 /* flex columns */
 
-.flex-columns.flex-reverse {
+/* .flex-columns.flex-reverse {
   flex-direction: row-reverse;
-}
+} */
 .flex-columns .row {
   display: flex;
   flex-direction: row;
